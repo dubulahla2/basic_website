@@ -1,0 +1,58 @@
+<style>
+.Pizzas {
+    display: flex;
+}
+
+.Pizza {
+
+    border: solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    flex: 1;
+
+}
+
+.medium_Pizza {
+    background-color: #FF595E;
+
+}
+
+.large_Pizza {
+    background-color: blueviolet;
+
+}
+
+.small_Pizza {
+    background-color: yellowgreen;
+
+}
+
+
+.contact_Us {
+    background-color: #1982c4;
+    border: solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.title {
+    background-color: #1982c4;
+    border: solid black;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+
+}
+
+@media(min-width: 768px) {
+    .Pizzas{
+        display: flex;
+    }
+
+    body {
+        background-color: orange;
+    }
+}
+</style>
+
